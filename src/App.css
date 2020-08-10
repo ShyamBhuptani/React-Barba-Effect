@@ -1,0 +1,75 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.Home, .Contact {
+  height: 100vh;
+  background-color: #161616;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.Home > div , .Contact > div {
+  padding-top: 300px !important;
+  color: #ff7f82;
+  font-size: 7rem;
+}
+
+.button {
+  background: none;
+  border: 2px solid #a972cb;
+  font: inherit;
+  line-height: 1;
+  padding: .3rem 3rem;
+  text-decoration: none;
+  font-size: 30px;
+  color: #a972cb;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  outline: none;
+  transition: all .3s;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: inset 0 0 0 2em rgb(169, 114, 203,.2);
+}
+
+.load-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.load-screen {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #19bc8b;
+  width: 0%;
+  height: 100%;
+}
+
+.load-screen1 {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #e4cb58;
+  width: 100%;
+  height: 0%;
+}
+
+.Headd {
+  opacity: 0;
+  pointer-events: none;
+}
