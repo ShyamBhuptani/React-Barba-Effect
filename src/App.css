@@ -18,6 +18,10 @@
   font-size: 7rem;
 }
 
+.Contact > div {
+  color: #ffa260;
+}
+
 .button {
   background: none;
   border: 2px solid #a972cb;
