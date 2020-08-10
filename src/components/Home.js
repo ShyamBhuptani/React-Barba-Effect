@@ -16,7 +16,6 @@ function Home() {
     });
     tl.to(screen, {
       duration: 1,
-      width: "100%",
       left: "100%",
       ease: Power3.easeInOut,
       delay: 0.3,

@@ -10,15 +10,12 @@ function Contact() {
     var tl = new TimelineMax();
     tl.to(screen, {
       duration: 1.2,
-      width: "100%",
       height: "100%",
       ease: Power3.easeInOut,
     });
     tl.to(screen, {
       duration: 1,
-      width: "100%",
       top: "100%",
-      height: "100%",
       ease: Power3.easeInOut,
       delay: 0.3,
     });
